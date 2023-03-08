@@ -1,5 +1,4 @@
-// @ts-ignore
-import * as TunnelAgent from '@postman/tunnel-agent';
+const TunnelAgent = require('@postman/tunnel-agent');
 import HashCode from 'ts-hashcode';
 import NodeCache from 'node-cache';
 import { ExternalProxyHelper } from '../types/external-proxy-config';
